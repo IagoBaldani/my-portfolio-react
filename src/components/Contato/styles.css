@@ -1,0 +1,39 @@
+
+.contato{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 90px 100px 20px 100px;
+    color: #fff;
+}
+
+.contatolower{
+    display: flex;
+    height: 100%;
+}
+
+.right-img{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.contato li{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.contato li img{
+    margin-right: 20px;
+}
+
+.right-img img{
+    height: 350px;
+}

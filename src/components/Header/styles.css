@@ -1,0 +1,41 @@
+.header{
+    height: 75px;
+    background-color: rgba(0, 0, 0, 0.90);
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menu ul, li{
+    list-style: none;
+    font-weight: 900;
+    display: flex;
+}
+
+.menu li{
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 18px;
+    color:#fff;
+    height: 75px;
+    transition: all linear 0.3s;
+}
+
+.menu li a{
+    display: flex;
+    align-items: center;
+}
+
+.menu li:hover{
+    border-bottom: 5px solid #05DBF2;
+}
+
+.menu-mobile{
+    display: none;
+}
