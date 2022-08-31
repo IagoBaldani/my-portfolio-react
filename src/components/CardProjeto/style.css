@@ -1,0 +1,36 @@
+.item-projetos{
+    display: flex;
+    flex-direction: column;
+    background-color: #1D1D1D;
+    border-radius: 20px;
+    box-shadow: 0 0 15px #2f2f2f;
+    margin: 0 auto 20px auto;
+    height: 60vh;
+    width: 100%;
+}
+
+.item-projetos h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0.6em;
+}
+
+.item-projetos .entalhe{
+    height: 10px;
+    width: 100%;
+    margin: 0 !important;
+}
+
+.imgprin{
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("src/assets/img/mimosbyliv.png");
+}
+
+@media (max-width:500px){
+    .item-projetos{
+        height: 40vh;
+    }
+}
+

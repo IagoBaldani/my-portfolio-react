@@ -31,9 +31,7 @@ export default {
         },
         principaisProjetos:{
             titulo: 'MAIN PROJECTS',
-            mimos:{
-                primeiroParagrafo: ''
-            }
+            botaoModal: 'MORE DETAILS',
         },
         footer:{
             todosDireitos: 'All rights reserved.',

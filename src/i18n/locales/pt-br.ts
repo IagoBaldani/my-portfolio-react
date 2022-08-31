@@ -30,9 +30,7 @@ export default {
         },
         principaisProjetos:{
             titulo: 'PRINCIPAIS PROJETOS',
-            mimos:{
-                primeiroParagrafo: ''
-            }
+            botaoModal: 'MAIS DETALHES',
         },
         footer:{
             todosDireitos: 'Todos os direitos reservados.',
