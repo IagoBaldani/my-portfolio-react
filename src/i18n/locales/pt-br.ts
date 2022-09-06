@@ -17,7 +17,7 @@ export default {
                 'acredito que o compartilhamento de conhecimento nos leva a um desenvolvimento ' +
                 'bilateral, afinal é ensinando que se aprende.',
             quartoParagrafo: 'Hoje, após entrar e passar pela primeira turma do programa de formação Java ' +
-                'na SIS Consultoria, atuo em projetos da empresa como Trainee Java e me desenvolvendo ' +
+                'na SIS Consultoria, atuo em projetos da empresa como Trainee Java e estou me desenvolvendo ' +
                 'diariamente rumo ao cargo de Analista Desenvolvedor JR.',
             quintoParagrafo: 'Atualmente, estou atuando em um projeto de integração entre sistemas e ' +
                 'uma ferramenta de gestão de acesso, desenvolvendo diversas APIs REST seguindo os ' +
@@ -43,7 +43,7 @@ export default {
                 titulo: 'SGAC - Sistema de gerenciamento de artigos acadêmicos',
                 descricao: 'SGAC é um sistema de gerenciamento de artigos acadêmicos que foi realizado ' +
                     'com intuito de auxiliar a Fatec Ourinhos.' +
-                    ' Nele é possível que os professores da faculdade realizem o gestão dos ' +
+                    ' Nele é possível que os professores da faculdade realizem a gestão dos ' +
                     'processos relacionados à entrega e correção de artigos acadêmicos.',
                 tecnologias: 'PHP | HTML, CSS & JS | MariaDB'
             },

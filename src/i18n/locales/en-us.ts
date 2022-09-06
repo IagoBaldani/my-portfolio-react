@@ -35,9 +35,9 @@ export default {
             mimosByLiv:{
                 titulo: 'Mimos By Liv',
                 descricao: 'Mimos by Liv is a dynamic web catalog made for a baby\'s clothing and acessories online shop.' +
-                    ' The catalog have a admin area, in this area the admin can' +
-                    'add, edit or delete products.'+
-                    'It also haves a login system in order to mantain the access to the ' +
+                    ' The catalog has a admin area, in this area the admin can' +
+                    ' add, edit or delete products.'+
+                    'It also has a login system in order to mantain the access to the ' +
                     'administration functions only for the admin.',
                 tecnologias: 'SpringBoot | VueJS | PostgreSQL'
             },
@@ -50,7 +50,7 @@ export default {
             },
             symposium:{
                 titulo: 'Symposium - Academic Events Management System',
-                descricao: 'Symposium is a system made in order to ease the management of some ' +
+                descricao: 'Symposium is a system made in order to facilitate the management of some ' +
                     'processes related to scheduling, managing and organizing academic events.',
                 tecnologias: 'SpringBoot | VueJS | MariaDB '
             }
