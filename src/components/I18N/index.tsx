@@ -8,7 +8,7 @@ import  EuaFlag  from '../../assets/img/eua-flag.svg';
 type parametros = {
     img: string;
     isSelected: boolean;
-    onClick: Function;
+    onClick: any;
 }
 
 function Flag( {img, isSelected, onClick}:parametros){
