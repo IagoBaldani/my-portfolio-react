@@ -98,3 +98,9 @@
     align-items: center;
     justify-content: space-evenly;
 }
+
+@media (max-width: 500px){
+    .lang h2{
+        margin-left: 1em;
+    }
+}
