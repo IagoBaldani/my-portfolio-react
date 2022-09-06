@@ -1,21 +1,29 @@
-import Translator from "../I18N/Translator";
 import './style.css'
-import ModalProjeto from "../ModalProjeto";
+import file from '../../assets/img/projeto.svg'
+import gitHub from '../../assets/img/github1.svg'
 
 type Props = {
-    img: string,
     titulo: string,
-    onClick: Function,
+    descricao: string,
+    tecnologias: string,
+    linkGitHub: string
 }
 
-function CardProjeto({img, titulo, onClick} : Props) {
+function CardProjeto({titulo, descricao, linkGitHub, tecnologias} : Props) {
     return (
+        <>
         <div className="item-projetos">
-            <h2>{titulo}</h2>
-            <div className="entalhe"/>
-            <img className="imgprin" src={img} alt={titulo}/>
-            <ModalProjeto textoBotao={Translator('principaisProjetos.botaoModal')}/>
+            <div className="icones">
+                <img className="icone" src={file}/>
+                <a href={linkGitHub}> <img className="icone" src={gitHub}/> </a>
+            </div>
+            <div className="text-area">
+                <div className="principal"> {titulo}</div>
+                <div className="descricao"> {descricao} </div>
+            </div>
+            <div className="tecnologias"> {tecnologias} </div>
         </div>
+        </>
     )
 }
 

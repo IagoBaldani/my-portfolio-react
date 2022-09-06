@@ -21,7 +21,24 @@
     box-shadow: 0 0 30px #000;
     margin-bottom: 30px;
     margin-top: 50px;
+
 }
+
+.imgbanner::after{
+    content: '';
+    border-radius: 125px;
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    background-color: #05DBF2;
+    opacity: 0.3;
+    transition: all 0.3s linear;
+}
+
+.imgbanner:hover::after{
+    opacity: 0;
+}
+
 
 .highlight{
     color:#05DBF2;
@@ -29,7 +46,7 @@
 
 .banner h2{
     margin-bottom: 40px;
-    font-weight: 800;
+    font-weight: 700;
     letter-spacing: 5px;
 }
 

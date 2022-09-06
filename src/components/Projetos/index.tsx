@@ -1,7 +1,3 @@
-import mimosbyliv from '../../assets/img/mimosbyliv.png';
-import symposium from '../../assets/img/symposium.png';
-import sgac from '../../assets/img/sgac.png';
-
 import './styles.css';
 import Translator from "../I18N/Translator";
 import CardProjeto from "../CardProjeto";
@@ -15,10 +11,29 @@ function Projetos() {
                     <div className="entalhe"/>
                 </div>
                 <div className="lower">
-                    <CardProjeto img={mimosbyliv} titulo="Mimos By Liv" onClick={()=>{alert("sexo")}}/>
-                    <CardProjeto img={sgac} titulo="SGAC" onClick={()=>{alert("sexo")}}/>
-                    <CardProjeto img={symposium} titulo="Symposium" onClick={()=>{alert("sexo")}}/>
+                    <CardProjeto
+                        titulo={Translator('principaisProjetos.mimosByLiv.titulo')}
+                        descricao={Translator('principaisProjetos.mimosByLiv.descricao')}
+                        tecnologias={Translator('principaisProjetos.mimosByLiv.tecnologias')}
+                        linkGitHub='https://github.com/IagoBaldani/mimosbyliv'
+                    />
+                    <CardProjeto
+                        titulo={Translator('principaisProjetos.symposium.titulo')}
+                        descricao={Translator('principaisProjetos.symposium.descricao')}
+                        tecnologias={Translator('principaisProjetos.symposium.tecnologias')}
+                        linkGitHub="https://github.com/IagoBaldani/symposium"
+                    />
+                    <CardProjeto
+                        titulo={Translator('principaisProjetos.sgac.titulo')}
+                        descricao={Translator('principaisProjetos.sgac.descricao')}
+                        tecnologias={Translator('principaisProjetos.sgac.tecnologias')}
+                        linkGitHub="https://github.com/IagoBaldani/ProjetoLabEngSoft"
+                    />
                 </div>
+            </div>
+
+            <div className='modalImg'>
+
             </div>
         </section>
     )

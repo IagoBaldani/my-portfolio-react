@@ -24,13 +24,36 @@ export default {
                 'devidos padrões do framework BSAD 3.6 (Framework da Bradesco Seguros).',
             tecnologias: 'TECNOLOGIAS',
             descricaoTecnologias: 'que utilizo ou já tive contato',
-            fluente: 'Fluente',
+            fluente: 'Nativo',
             intermediario: 'Intermediário',
             basico: 'Básico'
         },
         principaisProjetos:{
             titulo: 'PRINCIPAIS PROJETOS',
             botaoModal: 'MAIS DETALHES',
+            mimosByLiv:{
+                titulo: 'Mimos By Liv',
+                descricao: 'Mimos By Liv é um catálogo dinâmico feito para uma loja online de' +
+                    ' roupas e acessórios de bebês.' +
+                    ' O sistema conta com uma área de administração, para que o administrador' +
+                    ' consiga adicionar, editar e deletar produtos.',
+                tecnologias: 'SpringBoot | VueJS | PostgreSQL'
+            },
+            sgac:{
+                titulo: 'SGAC - Sistema de gerenciamento de artigos acadêmicos',
+                descricao: 'SGAC é um sistema de gerenciamento de artigos acadêmicos que foi realizado ' +
+                    'com intuito de auxiliar a Fatec Ourinhos.' +
+                    ' Nele é possível que os professores da faculdade realizem o gestão dos ' +
+                    'processos relacionados à entrega e correção de artigos acadêmicos.',
+                tecnologias: 'PHP | HTML, CSS & JS | MariaDB'
+            },
+            symposium:{
+                titulo: 'Symposium - Sistema de gerenciamento de eventos acadêmicos',
+                descricao: 'Symposium é um sistema de gerenciamento de eventos acadêmicos que foi ' +
+                    'realizado como trabalho de conclusão de curso, em minha formação na faculdade.' +
+                    ' Esse sistema serve para facilitar e gerenciar os eventos organizados pela Fatec.',
+                tecnologias: 'SpringBoot | VueJS | MariaDB '
+            }
         },
         footer:{
             todosDireitos: 'Todos os direitos reservados.',

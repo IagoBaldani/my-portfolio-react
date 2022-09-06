@@ -24,14 +24,36 @@ export default {
                 'developing myself everyday in order to achieve greater goals. ',
             quintoParagrafo: 'Currently, i’m working in a Integration Project (Integrating differents ' +
                 'systems and a access management tool) developing many REST API’S following the proper ' +
-                'standarts of the BSAD 3.6 framework (A Bradesco Seguros framework).',
-            fluente: 'Fluent',
+                'standards of the BSAD 3.6 framework (A Bradesco Seguros framework).',
+            fluente: 'Native',
             intermediario: 'Upper-Intermediate',
             basico: 'Basic'
         },
         principaisProjetos:{
             titulo: 'MAIN PROJECTS',
             botaoModal: 'MORE DETAILS',
+            mimosByLiv:{
+                titulo: 'Mimos By Liv',
+                descricao: 'Mimos by Liv is a dynamic web catalog made for a baby\'s clothing and acessories online shop.' +
+                    ' The catalog have a admin area, in this area the admin can' +
+                    'add, edit or delete products.'+
+                    'It also haves a login system in order to mantain the access to the ' +
+                    'administration functions only for the admin.',
+                tecnologias: 'SpringBoot | VueJS | PostgreSQL'
+            },
+            sgac:{
+                titulo: 'SGAC - Academic Articles Management System',
+                descricao: 'SGAC is a academic articles management system developed in order to help ' +
+                    'the tech college of Ourinhos in managing the processes related to' +
+                    ' deliveries and corrections of academic articles.',
+                tecnologias: 'PHP | HTML, CSS & JS | MariaDB'
+            },
+            symposium:{
+                titulo: 'Symposium - Academic Events Management System',
+                descricao: 'Symposium is a system made in order to ease the management of some ' +
+                    'processes related to scheduling, managing and organizing academic events.',
+                tecnologias: 'SpringBoot | VueJS | MariaDB '
+            }
         },
         footer:{
             todosDireitos: 'All rights reserved.',

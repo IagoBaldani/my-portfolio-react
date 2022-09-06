@@ -14,12 +14,20 @@
 }
 
 .lower{
+    margin-top: 5em;
+    align-self: center;
     display: grid;
-    width: 100%;
+    width: 90%;
     height: 100%;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap:2em;
     grid-row-gap:2em;
+}
+
+@media (max-width:500px)  {
+    .lower {
+        margin-top: 0;
+    }
 }
 
 
