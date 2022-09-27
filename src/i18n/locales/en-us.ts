@@ -8,23 +8,18 @@ export default {
             titulo: 'ABOUT ME',
             tecnologias: 'TECNOLOGIES',
             descricaoTecnologias: 'that i\'ve worked with',
-            primeiroParagrafo: 'Hello, how are you? My name is Iago Baldani de Almeida. ' +
-                'I was born in Ourinhos, a little town in the interior of São Paulo, ' +
-                'where I currently live. Despite living in Ourinhos, I lived most of my life in ' +
-                'Rio de Janeiro. ',
-            segundoParagrafo: 'I’m 22 years old and I’m a technologist in Analysis and Systems ' +
-                'development, graduated from Fatec Ourinhos, the technology college of my current ' +
-                'town. ',
-            terceiroParagrafo: 'I describe myself as a very proactive person, with a lot of confidence ' +
-                'and with a natural instinct of leadership. I really like to help my teammates at ' +
-                'theirs technical problems, because I believe that sharing knowledge takes us to a ' +
-                'bilateral development, after all teaching is a great way to learn. ',
-            quartoParagrafo: 'After entering and being part of the first team of Java formation program ' +
-                'at SIS Consultant, I’m acting as Java Back End Trainee in projects of the company and ' +
-                'developing myself everyday in order to achieve greater goals. ',
-            quintoParagrafo: 'Currently, i’m working in a Integration Project (Integrating differents ' +
-                'systems and a access management tool) developing many REST API’S following the proper ' +
-                'standards of the BSAD 3.6 framework (A Bradesco Seguros framework).',
+            primeiroParagrafo: 'My name is Iago Baldani de Almeida. ' +
+                'I’ve lived most of my life in the city Rio de Janeiro, though I was born in Ourinhos, ' + 
+                'a little town in São Paulo State, and which is also where I currently live.',
+            segundoParagrafo: 'I’m a 22-year-old technologist in systems development & analysis. ' + 
+            'I graduated from the Faculty of Technology of Ourinhos (FATEC), the technic college of my current town.',
+            terceiroParagrafo: 'I\'m a very proactive person, with a lot of confidence and natural leadership instinct. ' + 
+            'I really like to help my teammates with their technical problems, because I believe that sharing knowledge ' + 
+            'leads us to bilateral development. After all, teaching is a great way to learn.',
+            quartoParagrafo: 'After having joined and been part of the first team of the Java formation program at SIS Consulting, ' + 
+            'I’m currently acting as Java Back-End Trainee in company projects and developing myself every day in order to achieve greater goals.',
+            quintoParagrafo: 'Currently, I’m working on an integration project (integrating different systems and access management tools), ' +
+            'developing many REST API’S following the proper standards of the BSAD 3.6 framework (a Bradesco Seguros framework).',
             fluente: 'Native',
             intermediario: 'Upper-Intermediate',
             basico: 'Basic'
@@ -34,24 +29,21 @@ export default {
             botaoModal: 'MORE DETAILS',
             mimosByLiv:{
                 titulo: 'Mimos By Liv',
-                descricao: 'Mimos by Liv is a dynamic web catalog made for a baby\'s clothing and acessories online shop.' +
-                    ' The catalog has a admin area, in this area the admin can' +
-                    ' add, edit or delete products.'+
-                    'It also has a login system in order to mantain the access to the ' +
-                    'administration functions only for the admin.',
+                descricao: 'Mimos by Liv is a dynamic web catalog made for a baby clothing & accessories online shop. '+ 
+                'The catalog has an admin area where the admin can add, edit or delete products. '+
+                'It also has a login system in order to maintain access to the administration functions only for the admin.',
                 tecnologias: 'SpringBoot | VueJS | PostgreSQL'
             },
             sgac:{
                 titulo: 'SGAC - Academic Articles Management System',
-                descricao: 'SGAC is a academic articles management system developed in order to help ' +
-                    'the tech college of Ourinhos in managing the processes related to' +
-                    ' deliveries and corrections of academic articles.',
+                descricao: 'SGAC is an academic article management system, developed in order to help the tech college of '+
+                'Ourinhos in managing the processes related to the delivery and correction of academic articles.',
                 tecnologias: 'PHP | HTML, CSS & JS | MariaDB'
             },
             symposium:{
                 titulo: 'Symposium - Academic Events Management System',
-                descricao: 'Symposium is a system made in order to facilitate the management of some ' +
-                    'processes related to scheduling, managing and organizing academic events.',
+                descricao: 'Symposium is a system made in order to facilitate the management of some processes related to '+
+                'scheduling, managing, and organizing academic events. ',
                 tecnologias: 'SpringBoot | VueJS | MariaDB '
             }
         },
