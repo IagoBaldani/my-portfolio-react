@@ -17,7 +17,7 @@ export default {
             'I really like to help my teammates with their technical problems, because I believe that sharing knowledge ' + 
             'leads us to bilateral development. After all, teaching is a great way to learn.',
             quartoParagrafo: 'After having joined and been part of the first team of the Java formation program at SIS Consulting, ' + 
-            'I’m currently acting as Java Back-End Trainee in company projects and developing myself every day in order to achieve greater goals.',
+            'I’m currently acting as Java Back-End Analyst Jr in company projects and developing myself every day in order to achieve greater goals.',
             quintoParagrafo: 'Currently, I’m working on an integration project (integrating different systems and access management tools), ' +
             'developing many REST API’S following the proper standards of the BSAD 3.6 framework (a Bradesco Seguros framework).',
             fluente: 'Native',
