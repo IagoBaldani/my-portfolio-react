@@ -17,8 +17,8 @@ export default {
                 'acredito que o compartilhamento de conhecimento nos leva a um desenvolvimento ' +
                 'bilateral, afinal é ensinando que se aprende.',
             quartoParagrafo: 'Hoje, após entrar e passar pela primeira turma do programa de formação Java ' +
-                'na SIS Consultoria, atuo em projetos da empresa como Trainee Java e estou me desenvolvendo ' +
-                'diariamente rumo ao cargo de Analista Desenvolvedor JR.',
+                'na SIS Consultoria, atuo em projetos da empresa como Analista Desenvolvedor Java Jr e estou me desenvolvendo ' +
+                'diariamente almejando objetivos maiores.',
             quintoParagrafo: 'Atualmente, estou atuando em um projeto de integração entre sistemas e ' +
                 'uma ferramenta de gestão de acesso, desenvolvendo diversas APIs REST seguindo os ' +
                 'devidos padrões do framework BSAD 3.6 (Framework da Bradesco Seguros).',
