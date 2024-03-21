@@ -11,7 +11,7 @@ export default {
             primeiroParagrafo: 'My name is Iago Baldani de Almeida. ' +
                 'I’ve lived most of my life in the city Rio de Janeiro, though I was born in Ourinhos, ' + 
                 'a little town in São Paulo State, and which is also where I currently live.',
-            segundoParagrafo: 'I’m a 22-year-old technologist in systems development & analysis. ' + 
+            segundoParagrafo: 'I’m a 23-year-old technologist in systems development & analysis. ' + 
             'I graduated from the Faculty of Technology of Ourinhos (FATEC), the technic college of my current town.',
             terceiroParagrafo: 'I\'m a very proactive person, with a lot of confidence and natural leadership instinct. ' + 
             'I really like to help my teammates with their technical problems, because I believe that sharing knowledge ' + 
