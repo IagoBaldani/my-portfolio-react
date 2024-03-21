@@ -10,7 +10,7 @@ export default {
                 'Sou natural de Ourinhos, interior de São Paulo onde atualmente resido. ' +
                 'Caso converse comigo, não estranhe o sotaque, apesar de ser natural de Ourinhos ' +
                 'vivi minha infância e adolescência no Rio de Janeiro.',
-            segundoParagrafo: 'Tenho 22 anos e sou Tecnólogo em Análise e Desenvolvimento de Sistemas, ' +
+            segundoParagrafo: 'Tenho 23 anos e sou Tecnólogo em Análise e Desenvolvimento de Sistemas, ' +
                 'formado na Faculdade de Tecnologia de Ourinhos.',
             terceiroParagrafo: 'Me considero uma pessoa proativa, confiante e com um instinto natural ' +
                 'de liderança. Tenho gosto por ajudar os outros em seus problemas técnicos, pois ' +
